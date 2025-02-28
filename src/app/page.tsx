@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import Footer from '@/components/header&Footer/Footer'
 import Header from '@/components/header&Footer/Header'
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'; // Correct import
 import Home from '../pages/Home'

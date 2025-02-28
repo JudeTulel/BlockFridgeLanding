@@ -1,10 +1,6 @@
-import Image from "next/image"
 import Link from "next/link"
-import { JSX } from "react"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ShieldCheck, Wallet, Smartphone, BarChart3 } from "lucide-react"
-import BlockFridge from "../../public/BlockFridge.png"
 import FeatureCard from "@/components/ui/Featured"
 export default function Home() {
   return (
