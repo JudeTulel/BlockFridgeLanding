@@ -51,7 +51,7 @@ export default function Home() {
             <ol className="list-decimal list-inside space-y-4 text-lg max-w-2xl mx-auto">
               <li>Prepay for goods using the BlockFridge app</li>
               <li>Visit a BlockFridge-partnered retailer</li>
-              <li>Select your goods and enter the retaile's  code</li>
+              <li>Select your goods and enter the retailers  code</li>
               <li>Collect your items to release the funds securely</li>
               <li>Enjoy peace of mind knowing your prepayments are protected</li>
             </ol>
