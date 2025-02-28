@@ -1,13 +1,13 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ShieldCheck, Wallet, Smartphone, BarChart3 } from "lucide-react"
-import FeatureCard from "@/components/ui/Featured"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ShieldCheck, Wallet, Smartphone, BarChart3 } from "lucide-react";
+import FeatureCard from "@/components/ui/Featured";
+
 export default function Home() {
   return (
-    <div className="bg-center p-4 shadow-lg h-screen bg-gradient-to-b from-[black] to-[green]">      
-
-      <main className="flex-grow">
-        <section className=" text-primary-foreground py-20 bg-opacity-70">
+    <div className="bg-center p-4 shadow-lg bg-gradient-to-b from-[black] to-[green] flex-grow">
+      <main>
+        <section className="text-primary-foreground py-20 bg-opacity-70">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Secure Your Prepayments with BlockFridge</h1>
             <p className="text-xl mb-8">Revolutionize your shopping experience with blockchain-powered smart fridges</p>
@@ -20,7 +20,7 @@ export default function Home() {
         <section id="features" className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">Key Features</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8" >
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <FeatureCard
                 icon={<ShieldCheck className="h-12 w-12 text-primary" />}
                 title="Protected Prepayments"
@@ -51,7 +51,7 @@ export default function Home() {
             <ol className="list-decimal list-inside space-y-4 text-lg max-w-2xl mx-auto">
               <li>Prepay for goods using the BlockFridge app</li>
               <li>Visit a BlockFridge-partnered retailer</li>
-              <li>Select your goods and enter the retailers  code</li>
+              <li>Select your goods and enter the retailer's code</li>
               <li>Collect your items to release the funds securely</li>
               <li>Enjoy peace of mind knowing your prepayments are protected</li>
             </ol>
@@ -75,9 +75,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      
     </div>
-  )
+  );
 }
-

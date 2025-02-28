@@ -6,10 +6,10 @@ import Footer from '@/components/header&Footer/Footer';
 
 const Page = () => {
   return (
-    <div className="bg-[url('https://i.imgur.com/iHdHgmG.png')] bg-cover bg-center p-4 shadow-lg h-screen flex flex-col">
+    <div className="bg-[url('https://i.imgur.com/iHdHgmG.png')] bg-cover bg-center p-4 shadow-lg flex flex-col min-h-screen">
       <Header />
-         <Home />
-      <Footer/>
+      <Home />
+      <Footer />
     </div>
   );
 };
