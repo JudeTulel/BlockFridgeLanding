@@ -90,7 +90,7 @@ export default function Home() {
                 Join the Waitlist
               </Link>
             </Button>
-            <p className="text-sm text-muted-foreground text-[white]">Coming soon to major platforms</p>
+            <p className="text-sm text-[white]">Coming soon to major platforms</p>
           </div>
         </section>
       </main>
