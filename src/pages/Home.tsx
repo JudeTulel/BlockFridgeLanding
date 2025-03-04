@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ShieldCheck, Wallet, Smartphone, BarChart3 } from "lucide-react";
 import FeatureCard from "@/components/ui/Featured";
@@ -7,8 +6,6 @@ import FeatureCard from "@/components/ui/Featured";
 export default function Home() {
   const homeimg = '/BlockFridge Home Screen.png';
   const cartimg = '/Cart Screen.png';
-  const usrImg  = '/User Profile Management.png';
-  const singImg = '/Signup.png';
   const stock = '/Food Stock Overview.png';
   const redeem = '/Redeem Tokens.png';
 
