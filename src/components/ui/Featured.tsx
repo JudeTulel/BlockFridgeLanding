@@ -10,14 +10,14 @@ interface FeatureCardProps {
   icon: React.ReactNode
   title: string
   description: string
-  phoneImage?: string
+  phoneImage: string
 }
 
 export default function FeatureCard({
   icon,
   title,
   description,
-  phoneImage = "/placeholder.svg?height=500&width=300",
+  phoneImage
 }: FeatureCardProps) {
   const [isHovered, setIsHovered] = useState(false)
 
